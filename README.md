@@ -1,3 +1,33 @@
+puma 사이트 구성하기
+
+- npx create-react-app puma-project
+- component로 구성
+- scss로 구성
+- netlify 배포
+
+구성
+
+- HeaderCp.jsx (공통)
+- MainVideoCp.jsx
+- Content1Cp.jsx
+- Content2Cp.jsx
+- MainBannerCp.jsx
+- Content3Cp.jsx
+- FooterCp.jsx (공통)
+
+설계
+
+- components 폴더 내부
+  | - common
+  || - HeaderCp.jsx(공통)
+  || - FooterCp.jsx(공통)
+  | - main
+  || - MainVideoCp.jsx
+  || - Content1Cp.jsx
+  || - Content2Cp.jsx
+  || - MainBannerCp.jsx
+  || - Content3Cp.jsx
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
